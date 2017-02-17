@@ -1,0 +1,36 @@
+{
+  "name": "mobile-site2-automation",
+  "version": "2.0.0",
+  "description": "SVCA mobile site automation",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "asyncawait": "^1.0.6",
+    "chai": "^3.5.0",
+    "standard": "^8.6.0",
+    "wdio-dot-reporter": "0.0.5",
+    "wdio-mocha-framework": "^0.2.13",
+    "wdio-selenium-standalone-service": "0.0.7",
+    "wdio-spec-reporter": "0.0.3",
+    "webdriverio": "^4.6.1"
+  },
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kma7/CTC-Automation.git"
+  },
+  "author": "MK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kma7/CTC-Automation/issues"
+  },
+  "homepage": "https://github.com/kma7/CTC-Automation#readme",
+  "keywords": [
+    "mobile-site",
+    "automation"
+  ]
+}
